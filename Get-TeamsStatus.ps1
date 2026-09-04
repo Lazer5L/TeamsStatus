@@ -35,7 +35,7 @@ If($null -ne $SetStatus){
     $params = @{
      "state"="$SetStatus";
      "attributes"= @{
-        "friendly_name"="$entityStatusName";
+        "name"="$entityStatusName";
         "icon"="mdi:microsoft-teams";
         }
      }
